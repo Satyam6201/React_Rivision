@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 const Form = () => {
 
-    const [title, setTitle] = useState('')
+  const [title, setTitle] = useState('')
 
     const submitHandler = (e) => {
         e.preventDefault(); //Stop page reload
