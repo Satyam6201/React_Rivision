@@ -14,9 +14,9 @@ import Card from "./card";
     console.log(res.data)
   }
 
-  useEffect(() => {
-    getData();
-  }, [index])
+    useEffect(() => {
+       getData();
+    }, [index])
 
   let printUserData = <h3 className='text-gray-300 text-xs absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-semibold'>Loading...</h3>
 
