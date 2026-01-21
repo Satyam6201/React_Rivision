@@ -1,5 +1,3 @@
-import React, { useState } from 'react'
-
 const Form = () => {
   const [title, setTitle] = useState('');
     const [details, setDetails] = useState('');
