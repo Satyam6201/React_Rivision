@@ -5,6 +5,7 @@ import Section2 from "./components/Section2/Section2"
 import axios from 'axios';
 import Card from "./components/UseEffect_Project/card";
 import MainFil from "./components/UseEffect_Project/MainFil";
+import Main from "./components/React-Router-advance/Main";
 
 const App = () => {
 
@@ -33,14 +34,19 @@ const App = () => {
   return (
 
     <div>
-    {/*   <Section user={content} />
-          <Section2 /> */}
+    {/* <Section user={content} />
+          <Section2 /> 
+    */}
 
     {/* Form-Handing Project */}
+
     {/*    <Form /> */}
 
       {/* useEffect Gallary Project */}
-      <MainFil/>
+      {/* <MainFil/> */}
+
+      {/* Router  */}
+      <Main />
    </div>
   )
 }
