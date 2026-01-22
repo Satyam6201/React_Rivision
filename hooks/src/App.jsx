@@ -5,6 +5,7 @@ import Navbar from "./components/useContext/Navbar"
 import UseEffectFil from "./components/UseEffectFil"
 import UseStateFil from "./components/UseStateFil"
 import Button from "./components/useContext/Button"
+import UseRef from "./components/useRef"
 
 const App = () => {
 
@@ -18,8 +19,10 @@ const App = () => {
 
         {/* <UseEffectFil /> */}
 
-        <Navbar />
-        <Button />
+        {/* <Navbar />
+        <Button /> */}
+
+        <UseRef />
     </div>
   )
 }
